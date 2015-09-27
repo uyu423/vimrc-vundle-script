@@ -11,3 +11,13 @@ $ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 $ vim
 : VundleInstall
 </pre>
+
+## TagList 사용을 위한 ctags 설치
+### Debian
+<pre>
+$ sudo apt-get install ctags
+</pre>
+### Redhat
+<pre>
+$ sudo yum install ctags
+</pre>
