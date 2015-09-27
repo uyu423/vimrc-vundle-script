@@ -18,7 +18,7 @@ $ vim
 : VundleInstall
 </pre>
 
-## ctags Installation for TagList Plugin
+## Install ctags package for TagList Plugin
 ### Debian
 <pre>
 $ sudo apt-get install ctags
@@ -27,3 +27,5 @@ $ sudo apt-get install ctags
 <pre>
 $ sudo yum install ctags
 </pre>
+
+## enjoy vim !
