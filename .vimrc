@@ -49,7 +49,7 @@ Plugin 'AutoComplPop'
 Plugin 'taglist-plus'
 " Node JS? Jade?"
 Plugin 'node.js'
-Plugin 'jade.vim'
+Plugin 'digitaltoad/vim-jade'
 
 " PHP Plugin
 Plugin 'php.vim-for-php5'
@@ -57,6 +57,10 @@ Plugin 'nishigori/vim-php-dictionary', 'php5.5'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
+
+" vim-jade plugin의 Jade Syntax Highlighting을 위한 옵션. 이상하게 이게 없으면 하이라이팅이 작동하지 않는다.
+au BufNewFile,BufReadPost *.jade set filetype=jade
+
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
