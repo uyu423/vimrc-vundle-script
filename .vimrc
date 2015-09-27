@@ -14,7 +14,7 @@ set nocompatible
 " set the runtime path to include Vundle and initialize
 " NERD Tree를 왼쪽에 생성
 let NERDTreeWinPos = "left"
-" NERD Tree는 F7키. Tag List는 F8키에 매칭.
+" NERD Tree는 F2키. Tag List는 F3키에 매칭.
 nmap <F2> :NERDTree<CR>
 nmap <F3> :TlistToggle<CR>
 filetype on
@@ -47,9 +47,11 @@ Plugin 'The-NERD-tree'
 Plugin 'AutoComplPop'
 " 열려있는 소스파일의 클래스, 함수, 변수 정보 창 - Tag List
 Plugin 'taglist-plus'
-" Node JS?"
+" Node JS? Jade?"
 Plugin 'node.js'
 Plugin 'jade.vim'
+
+" PHP Plugin
 Plugin 'php.vim-for-php5'
 Plugin 'nishigori/vim-php-dictionary', 'php5.5'
 
