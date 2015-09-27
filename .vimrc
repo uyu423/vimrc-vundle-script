@@ -17,7 +17,6 @@ let NERDTreeWinPos = "left"
 " NERD Tree는 F2키. Tag List는 F3키에 매칭.
 nmap <F2> :NERDTree<CR>
 nmap <F3> :TlistToggle<CR>
-filetype on
 " Tag list가 사용하는 ctags의 경로 설정
 let Tlist_Ctags_Cmd = "/usr/bin/ctags"
 let Tlist_Inc_Winwidth = 0
@@ -55,12 +54,25 @@ Plugin 'digitaltoad/vim-jade'
 Plugin 'php.vim-for-php5'
 Plugin 'nishigori/vim-php-dictionary', 'php5.5'
 
+" Molokai Color scheme
+"Plugin 'molokai'
+"Plugin 'lsdr/monokai'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 
 " vim-jade plugin의 Jade Syntax Highlighting을 위한 옵션. 이상하게 이게 없으면 하이라이팅이 작동하지 않는다.
 au BufNewFile,BufReadPost *.jade set filetype=jade
 
+" apply molokai color scheme
+"let g:molokai_original = 1
+
+" apply colorschemes
+" colorscheme molokai
+colorscheme desert
+" colorscheme slate
+
+filetype on
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
