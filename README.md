@@ -7,6 +7,12 @@ $ git clone https://github.com/uyu423/vimrc-vundle-script ~/.vim/yowus_vimrc
 $ ln -s ~/.vim/yowus_vimrc/.vimrc ~/.vimrc 
 </pre>
 
+## Add Molokai Color Scheme
+<pre>
+sudo wget -O /usr/share/vim/vim74/colors/molokai.vim https://raw.github.com/tomasr/molokai/master/colors/molokai.vim
+</pre>
+* If you using another vim version, modify colors parent directory path.
+
 ## Vundle Installation
 <pre>
 $ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
