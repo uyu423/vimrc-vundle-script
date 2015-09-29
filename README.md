@@ -7,7 +7,7 @@ $ git clone https://github.com/uyu423/vimrc-vundle-script ~/.vim/yowus_vimrc
 $ ln -s ~/.vim/yowus_vimrc/.vimrc ~/.vimrc 
 </pre>
 
-## Add Molokai Color Schime
+## Add Molokai Color Scheme
 <pre>
 sudo wget -O /usr/share/vim/vim74/colors/molokai.vim https://raw.github.com/tomasr/molokai/master/colors/molokai.vim
 </pre>
