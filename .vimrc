@@ -66,9 +66,11 @@ au BufNewFile,BufReadPost *.jade set filetype=jade
 
 " apply molokai color scheme
 "let g:molokai_original = 1
-"let g:rehash256 = 1
+let g:rehash256 = 1
 
 " apply colorschemes
+set t_Co=256
+syntax on
 colorscheme molokai
 " colorscheme desert
 " colorscheme slate
