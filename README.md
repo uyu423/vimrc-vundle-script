@@ -9,9 +9,14 @@ $ ln -s ~/.vim/yowus_vimrc/.vimrc ~/.vimrc
 
 ## Add Molokai Color Scheme
 <pre>
-sudo wget -O /usr/share/vim/vim74/colors/molokai.vim https://raw.github.com/tomasr/molokai/master/colors/molokai.vim
+sudo wget -O /usr/share/vim/vim74/colors/molokai.vim https://raw.github.com/tomasr/molokai/master/colors/molokai.vim --no-check-certificate
 </pre>
 * If you using another vim version, modify colors parent directory path.
+* If you want not using sudo privillege
+<pre>
+mkdir ~/.vim/colors
+wget -O ~/.vim/colors/molokai.vim https://raw.github.com/tomasr/molokai/master/colors/molokai.vim --no-check-certificate
+</pre>
 
 ## Vundle Installation
 <pre>
