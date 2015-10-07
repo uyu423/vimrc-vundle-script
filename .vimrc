@@ -49,6 +49,9 @@ Plugin 'taglist-plus'
 " Node JS? Jade?"
 Plugin 'node.js'
 Plugin 'digitaltoad/vim-jade'
+" Shell Script INDENT / SYNTAX Plugin
+Plugin 'sh.vim'
+Plugin 'bsh.vim'
 
 " PHP Plugin
 Plugin 'php.vim-for-php5'
