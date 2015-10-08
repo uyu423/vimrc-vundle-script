@@ -29,6 +29,10 @@ $ vim
 : VundleInstall
 </pre>
 
+## Install Fonts for Airline Plugin
+https://github.com/powerline/fonts/tree/master/
+* Must be sure to install all kinds of fonts in the font directory
+
 ## Install ctags package for TagList Plugin
 ### Debian
 <pre>
