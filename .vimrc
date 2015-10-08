@@ -46,16 +46,20 @@ Plugin 'The-NERD-tree'
 Plugin 'AutoComplPop'
 " 열려있는 소스파일의 클래스, 함수, 변수 정보 창 - Tag List
 Plugin 'taglist-plus'
+" Airline Plugin (http://vimawesome.com/plugin/vim-airline-sad-beautiful-tragic)
+Plugin 'bling/vim-airline'
 " Node JS? Jade?"
 Plugin 'node.js'
 Plugin 'digitaltoad/vim-jade'
 " Shell Script INDENT / SYNTAX Plugin
 Plugin 'sh.vim'
 Plugin 'bsh.vim'
-
-" PHP Plugin
-Plugin 'php.vim-for-php5'
-Plugin 'nishigori/vim-php-dictionary', 'php5.5'
+" PHP Plugin (http://vimawesome.com/?q=tag:php)
+Plugin 'StanAngeloff/php.vim'
+Plugin '2072/PHP-Indenting-for-VIm'
+Plugin 'm2mdas/phpcomplete-extended'
+" Auto Syntax Checker (http://vimawesome.com/plugin/syntastic)
+Plugin 'scrooloose/syntastic'
 
 " Molokai Color scheme
 "Plugin 'molokai'
@@ -63,6 +67,16 @@ Plugin 'nishigori/vim-php-dictionary', 'php5.5'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
+
+" Syntastic 설정
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 
 " vim-jade plugin의 Jade Syntax Highlighting을 위한 옵션. 이상하게 이게 없으면 하이라이팅이 작동하지 않는다.
 au BufNewFile,BufReadPost *.jade set filetype=jade
