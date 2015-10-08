@@ -68,6 +68,12 @@ Plugin 'scrooloose/syntastic'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 
+" Airline 설정
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#left_sep = ' '
+let g:airline#extensions#tabline#left_alt_sep = '|'
+let g:airline_powerline_fonts = 1
+
 " Syntastic 설정
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
