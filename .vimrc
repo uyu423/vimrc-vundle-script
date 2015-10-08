@@ -57,6 +57,8 @@ Plugin 'bsh.vim'
 " PHP Plugin (http://vimawesome.com/?q=tag:php)
 Plugin 'StanAngeloff/php.vim'
 Plugin '2072/PHP-Indenting-for-VIm'
+Plugin 'Shougo/vimproc'
+Plugin 'Shougo/unite.vim'
 Plugin 'm2mdas/phpcomplete-extended'
 " Auto Syntax Checker (http://vimawesome.com/plugin/syntastic)
 Plugin 'scrooloose/syntastic'
