@@ -60,6 +60,8 @@ Plugin '2072/PHP-Indenting-for-VIm'
 Plugin 'shawncplus/phpcomplete.vim'
 " Auto Syntax Checker (http://vimawesome.com/plugin/syntastic)
 Plugin 'scrooloose/syntastic'
+" for jQuery
+Plugin 'jQuery'
 
 " Molokai Color scheme
 "Plugin 'molokai'
