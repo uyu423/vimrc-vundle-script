@@ -9,6 +9,8 @@ set ignorecase
 " Tab 관련 설정. 일반적으로 가장 많이 쓰이는 tabstop 4, shiftwidth 4
 set tabstop=4
 set shiftwidth=4
+" 폴딩 기능 키 매핑
+map <F5> v]}zf
 
 set nocompatible
 " set the runtime path to include Vundle and initialize
