@@ -53,6 +53,8 @@ Plugin 'bling/vim-airline'
 " Node JS? Jade?"
 Plugin 'node.js'
 Plugin 'digitaltoad/vim-jade'
+Plugin 'pangloss/vim-javascript'
+Plugin 'nono/jquery.vim'
 " Shell Script INDENT / SYNTAX Plugin
 Plugin 'sh.vim'
 Plugin 'bsh.vim'
