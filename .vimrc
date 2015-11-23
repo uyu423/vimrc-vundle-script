@@ -90,6 +90,8 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+" set javascript syntax chacker for syntastic
+let g:syntastic_javascript_checkers = ['jshint']
 
 " vim-jade plugin의 Jade Syntax Highlighting을 위한 옵션. 이상하게 이게 없으면 하이라이팅이 작동하지 않는다.
 au BufNewFile,BufReadPost *.jade set filetype=jade

@@ -33,6 +33,11 @@ $ vim
 https://github.com/powerline/fonts/tree/master/
 * Must be sure to install all kinds of fonts in the font directory
 
+## Install JSHint Node Module for Javascript Syntax check
+<pre>
+sudo apt-get install npm && sudo npm install -g jshint
+</pre>
+
 ## Install ctags package for TagList Plugin
 ### Debian
 <pre>
