@@ -43,7 +43,8 @@ Plugin 'L9'
 " Pass the path to set the runtimepath properly.
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " Vim에서 파일 탐색기를 사용할 수 있게 한다. - Nerd Tree
-Plugin 'The-NERD-tree'
+"Plugin 'The-NERD-tree'
+Plugin 'scrooloose/nerdtree'
 " Vim에서 자동완성 기능(Ctrl + P)을 키입력하지 않더라도 자동으로 나타나게 - AutoComplPop
 Plugin 'AutoComplPop'
 " 열려있는 소스파일의 클래스, 함수, 변수 정보 창 - Tag List
