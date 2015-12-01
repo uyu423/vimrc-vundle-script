@@ -67,6 +67,8 @@ Plugin 'shawncplus/phpcomplete.vim'
 Plugin 'scrooloose/syntastic'
 " for jQuery
 Plugin 'jQuery'
+" for Markdown Preview
+Plugin 'JamshedVesuna/vim-markdown-preview'
 
 " Molokai Color scheme
 "Plugin 'molokai'
@@ -75,6 +77,9 @@ Plugin 'jQuery'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 
+" Makdown Plugin Github Preview 설
+let vim_markdown_preview_browser='Firefox'
+let vim_markdown_preview_github=1
 " Airline 설정
 let g:airline#extensions#tabline#enabled = 1
 "let g:airline#extensions#tabline#left_sep = ' '
@@ -91,7 +96,7 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 " set javascript syntax chacker for syntastic
-let g:syntastic_javascript_checkers = ['jshint']
+"let g:syntastic_javascript_checkers = ['jshint']
 
 " vim-jade plugin의 Jade Syntax Highlighting을 위한 옵션. 이상하게 이게 없으면 하이라이팅이 작동하지 않는다.
 au BufNewFile,BufReadPost *.jade set filetype=jade
