@@ -1,3 +1,5 @@
+" vi에서 탭 크기 마우스로 조절 가능하게
+set mouse=a
 " vi 실행시 number line 생성
 set nu
 " 코딩 작업시 자동 들여쓰기
