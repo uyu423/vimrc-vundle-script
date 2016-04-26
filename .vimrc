@@ -1,5 +1,7 @@
+" vi에서 파일 인코딩 자동 확인
+set fileencodings=utf8,euc-kr 
 " vi에서 탭 크기 마우스로 조절 가능하게
-set mouse=a
+"set mouse=a
 " vi 실행시 number line 생성
 set nu
 " 코딩 작업시 자동 들여쓰기
@@ -71,6 +73,7 @@ Plugin 'scrooloose/syntastic'
 Plugin 'jQuery'
 " for Markdown Preview
 Plugin 'JamshedVesuna/vim-markdown-preview'
+" for html automatic parse
 
 " Molokai Color scheme
 "Plugin 'molokai'
