@@ -74,6 +74,9 @@ Plugin 'jQuery'
 " for Markdown Preview
 Plugin 'JamshedVesuna/vim-markdown-preview'
 " for html automatic parse
+Plugin 'junegunn/goyo.vim'
+Plugin 'junegunn/gv.vim'
+Plugin 'junegunn/limelight.vim'
 
 " Molokai Color scheme
 "Plugin 'molokai'
