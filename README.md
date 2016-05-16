@@ -1,6 +1,9 @@
 # vimrc-vundle-script
 여러 리눅스 환경에서의 vimrc, vim plugin 파일 동기화를 위한 저장소
 
+## Example Image
+![Yowu's Vimrc Example Img](https://github.com/uyu423/vimrc-vundle-script/blob/master/example.png?raw=true)
+
 ## Installation
 <pre>
 $ git clone https://github.com/uyu423/vimrc-vundle-script ~/.vim/yowus_vimrc
@@ -18,7 +21,7 @@ mkdir ~/.vim/colors
 wget -O ~/.vim/colors/molokai.vim https://raw.github.com/tomasr/molokai/master/colors/molokai.vim --no-check-certificate
 </pre>
 
-## Vundle Installation
+## [Vundle](https://github.com/gmarik/Vundle.vim) Installation
 <pre>
 $ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 </pre>
