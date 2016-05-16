@@ -45,6 +45,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'L9'
 " The sparkup vim script is in a subdirectory of this repo called vim.
 " Pass the path to set the runtimepath properly.
+" HTML Parser
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " Vim에서 파일 탐색기를 사용할 수 있게 한다. - Nerd Tree
 "Plugin 'The-NERD-tree'
@@ -66,7 +67,7 @@ Plugin 'bsh.vim'
 " PHP Plugin (http://vimawesome.com/?q=tag:php)
 Plugin 'StanAngeloff/php.vim'
 Plugin '2072/PHP-Indenting-for-VIm'
-Plugin 'shawncplus/phpcomplete.vim'
+"Plugin 'shawncplus/phpcomplete.vim'
 " Auto Syntax Checker (http://vimawesome.com/plugin/syntastic)
 Plugin 'scrooloose/syntastic'
 " for jQuery
@@ -77,6 +78,9 @@ Plugin 'JamshedVesuna/vim-markdown-preview'
 Plugin 'junegunn/goyo.vim'
 Plugin 'junegunn/gv.vim'
 Plugin 'junegunn/limelight.vim'
+" for PHP & Laravel Framework
+"Plugin 'm2mdas/phpcomplete-extended'
+"Plugin 'm2mdas/phpcomplete-extended-laravel'
 
 " Molokai Color scheme
 "Plugin 'molokai'
