@@ -4,8 +4,10 @@ set fileencodings=utf8,euc-kr
 "set mouse=a
 " vi 실행시 number line 생성
 set nu
-" 코딩 작업시 자동 들여쓰기
+" 코딩 작업시 지능적인 들여쓰기
 set smartindent
+" 코딩 작업시 자동적용 들여쓰기
+set autoindent
 " 일반모드에서 / 검색시 하이라이팅
 set hlsearch
 " 일반모드에서 / 검색시 대소문자 구분하지 않음
@@ -13,6 +15,9 @@ set ignorecase
 " Tab 관련 설정. 일반적으로 가장 많이 쓰이는 tabstop 4, shiftwidth 4
 set tabstop=4
 set shiftwidth=4
+" 닫는 괄호를 입력할 때 일치하는 괄호 보여줌
+set showmatch
+
 " 폴딩 기능 키 매핑
 map <F5> v]}zf
 
