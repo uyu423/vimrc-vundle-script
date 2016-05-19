@@ -86,6 +86,8 @@ Plugin 'junegunn/limelight.vim'
 " for PHP & Laravel Framework
 "Plugin 'm2mdas/phpcomplete-extended'
 "Plugin 'm2mdas/phpcomplete-extended-laravel'
+" Dracula Color scheme
+Plugin 'zenorocha/dracula-theme', {'rtp': 'vim/'}
 
 " Molokai Color scheme
 "Plugin 'molokai'
@@ -122,10 +124,13 @@ au BufNewFile,BufReadPost *.jade set filetype=jade
 "let g:molokai_original = 1
 let g:rehash256 = 1
 
-" apply colorschemes
-set t_Co=256
+" apply colorscheme Molokai
+"set t_Co=256
+"syntax on
+"colorscheme molokai
+
 syntax on
-colorscheme molokai
+colorscheme dracula
 " colorscheme desert
 " colorscheme slate
 
