@@ -36,9 +36,9 @@ $ vim
 https://github.com/powerline/fonts/tree/master/
 * Must be sure to install all kinds of fonts in the font directory
 
-## Install JSHint Node Module for Javascript Syntax check
+## Install ESLint Node Module for Javascript(ES6, JSX) Syntax check
 <pre>
-sudo apt-get install npm && sudo npm install -g jshint
+sudo apt-get install npm && sudo npm install -g eslint@3.x babel-eslint@6
 </pre>
 
 ## Install ctags package for TagList Plugin
