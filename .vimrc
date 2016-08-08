@@ -65,6 +65,7 @@ Plugin 'bling/vim-airline'
 Plugin 'node.js'
 Plugin 'digitaltoad/vim-jade'
 Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
 Plugin 'nono/jquery.vim'
 " Shell Script INDENT / SYNTAX Plugin
 Plugin 'sh.vim'
@@ -88,6 +89,7 @@ Plugin 'junegunn/limelight.vim'
 "Plugin 'm2mdas/phpcomplete-extended-laravel'
 " Dracula Color scheme
 Plugin 'zenorocha/dracula-theme', {'rtp': 'vim/'}
+Plugin 'mustache/vim-mustache-handlebars'
 
 " Molokai Color scheme
 "Plugin 'molokai'
@@ -115,7 +117,8 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 " set javascript syntax chacker for syntastic
-"let g:syntastic_javascript_checkers = ['jshint']
+"let g:syntastic_javascript_checkers = ['jsxhint']
+let g:syntastic_javascript_checkers = ['eslint']
 
 " vim-jade plugin의 Jade Syntax Highlighting을 위한 옵션. 이상하게 이게 없으면 하이라이팅이 작동하지 않는다.
 au BufNewFile,BufReadPost *.jade set filetype=jade
@@ -126,11 +129,13 @@ let g:rehash256 = 1
 
 " apply colorscheme Molokai
 "set t_Co=256
-"syntax on
-"colorscheme molokai
-
 syntax on
-colorscheme dracula
+colorscheme molokai
+
+" apply colorscheme Dracula
+"syntax on
+"colorscheme dracula
+
 " colorscheme desert
 " colorscheme slate
 
