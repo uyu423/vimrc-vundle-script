@@ -13,8 +13,11 @@ set hlsearch
 " 일반모드에서 / 검색시 대소문자 구분하지 않음
 set ignorecase
 " Tab 관련 설정. 일반적으로 가장 많이 쓰이는 tabstop 4, shiftwidth 4
-set tabstop=4
-set shiftwidth=4
+" 16.10.08 --> tabstop, shiftstop, shiftwidth를 2로 변경함.
+set softtabstop=2
+set tabstop=2
+set shiftwidth=2
+set expandtab
 " 닫는 괄호를 입력할 때 일치하는 괄호 보여줌
 set showmatch
 
@@ -90,6 +93,10 @@ Plugin 'junegunn/limelight.vim'
 " Dracula Color scheme
 Plugin 'zenorocha/dracula-theme', {'rtp': 'vim/'}
 Plugin 'mustache/vim-mustache-handlebars'
+" Auto Pair Plugin
+Plugin 'jiangmiao/auto-pairs'
+" Auto Commentary Plugin
+Plugin 'scrooloose/nerdcommenter'
 
 " Molokai Color scheme
 "Plugin 'molokai'
