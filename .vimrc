@@ -66,10 +66,7 @@ Plugin 'taglist-plus'
 Plugin 'bling/vim-airline'
 " Node JS? Jade?"
 Plugin 'node.js'
-Plugin 'digitaltoad/vim-jade'
-Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
-Plugin 'nono/jquery.vim'
 " Shell Script INDENT / SYNTAX Plugin
 Plugin 'sh.vim'
 Plugin 'bsh.vim'
@@ -79,8 +76,6 @@ Plugin '2072/PHP-Indenting-for-VIm'
 "Plugin 'shawncplus/phpcomplete.vim'
 " Auto Syntax Checker (http://vimawesome.com/plugin/syntastic)
 Plugin 'scrooloose/syntastic'
-" for jQuery
-Plugin 'jQuery'
 " for Markdown Preview
 Plugin 'JamshedVesuna/vim-markdown-preview'
 " for html automatic parse
@@ -92,7 +87,6 @@ Plugin 'junegunn/limelight.vim'
 "Plugin 'm2mdas/phpcomplete-extended-laravel'
 " Dracula Color scheme
 Plugin 'zenorocha/dracula-theme', {'rtp': 'vim/'}
-Plugin 'mustache/vim-mustache-handlebars'
 " Auto Pair Plugin
 Plugin 'jiangmiao/auto-pairs'
 " Auto Commentary Plugin
@@ -131,7 +125,7 @@ let g:syntastic_javascript_checkers = ['eslint']
 au BufNewFile,BufReadPost *.jade set filetype=jade
 
 " apply molokai color scheme
-"let g:molokai_original = 1
+let g:molokai_original = 1
 let g:rehash256 = 1
 
 " apply colorscheme Molokai
