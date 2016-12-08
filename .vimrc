@@ -66,7 +66,6 @@ Plugin 'taglist-plus'
 Plugin 'bling/vim-airline'
 " Node JS? Jade?"
 Plugin 'node.js'
-Plugin 'mxw/vim-jsx'
 " Shell Script INDENT / SYNTAX Plugin
 Plugin 'sh.vim'
 Plugin 'bsh.vim'
@@ -91,6 +90,11 @@ Plugin 'zenorocha/dracula-theme', {'rtp': 'vim/'}
 Plugin 'jiangmiao/auto-pairs'
 " Auto Commentary Plugin
 Plugin 'scrooloose/nerdcommenter'
+" Related to Javascript
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
+Plugin 'SirVer/ultisnips'
+Plugin 'isRuslan/vim-es6'
 
 " Molokai Color scheme
 "Plugin 'molokai'
@@ -99,7 +103,10 @@ Plugin 'scrooloose/nerdcommenter'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 
-" Makdown Plugin Github Preview 설
+" *.js = *.jsx
+let g:jsx_ext_required = 0
+
+" Makdown Plugin Github Preview 설정
 let vim_markdown_preview_browser='Firefox'
 let vim_markdown_preview_github=1
 " Airline 설정
